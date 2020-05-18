@@ -1,7 +1,7 @@
 import React from "react";
 
 import { AppBar, makeStyles, Toolbar } from "@material-ui/core";
-import TopAppBar from "./TopAppBar";
+import TopAppBar from "./TopAppBar/TopAppBar";
 
 const useStyles = makeStyles({
     appBar: {
