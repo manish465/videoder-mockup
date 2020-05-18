@@ -1,5 +1,15 @@
 import React from "react";
-import { Paper, Avatar, Grid, IconButton, Typography } from "@material-ui/core";
+
+import {
+    Paper,
+    Avatar,
+    Grid,
+    IconButton,
+    Typography,
+    Button,
+} from "@material-ui/core";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+
 import data from "../../Data/LinksData";
 
 const LinksComp = () => {
@@ -35,6 +45,12 @@ const LinksComp = () => {
                     </div>
                 ))}
             </Grid>
+            <Button
+                endIcon={<ChevronRightIcon fontSize='large' />}
+                style={{ marginTop: "10px" }}
+                color='primary'>
+                VIEW ALL SITE
+            </Button>
         </Paper>
     );
 };
