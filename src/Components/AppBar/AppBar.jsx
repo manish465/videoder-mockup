@@ -15,7 +15,7 @@ const AppBarComp = () => {
     const classes = useStyles();
 
     return (
-        <AppBar className={classes.appBar}>
+        <AppBar position='static' className={classes.appBar}>
             <Toolbar>
                 <TopAppBar />
             </Toolbar>
