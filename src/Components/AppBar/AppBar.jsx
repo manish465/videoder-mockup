@@ -2,6 +2,7 @@ import React from "react";
 
 import { AppBar, makeStyles, Toolbar } from "@material-ui/core";
 import TopAppBar from "./TopAppBar/TopAppBar";
+import BottomAppBar from "./BottomAppBar/BottomAppBar";
 
 const useStyles = makeStyles({
     appBar: {
@@ -17,6 +18,9 @@ const AppBarComp = () => {
         <AppBar className={classes.appBar}>
             <Toolbar>
                 <TopAppBar />
+            </Toolbar>
+            <Toolbar>
+                <BottomAppBar />
             </Toolbar>
         </AppBar>
     );
