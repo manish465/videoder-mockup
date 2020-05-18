@@ -32,7 +32,7 @@ const LinksComp = () => {
                 justify='space-around'
                 direction='row'>
                 {newData.map((el, key) => (
-                    <div>
+                    <div key={key}>
                         <IconButton>
                             <Avatar
                                 style={{ width: "80px", height: "80px" }}
