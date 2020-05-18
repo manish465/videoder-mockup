@@ -19,7 +19,8 @@ const BottomAppBar = () => {
                 value={activeTab}
                 onChange={handleChange}
                 indicatorColor='primary'
-                textColor='primary'>
+                textColor='primary'
+                scrollButtons='desktop'>
                 <Tab label='HOME' />
                 <Tab label='MUSIC' />
                 <Tab label='SUBSCRIPTIONS' />
