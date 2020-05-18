@@ -7,7 +7,7 @@ import BottomAppBar from "./BottomAppBar/BottomAppBar";
 const useStyles = makeStyles({
     appBar: {
         backgroundColor: "#171717",
-        height: "173px",
+        height: "150px",
     },
 });
 
@@ -19,7 +19,7 @@ const AppBarComp = () => {
             <Toolbar>
                 <TopAppBar />
             </Toolbar>
-            <Toolbar>
+            <Toolbar style={{ marginTop: "10px", justifyContent: "center" }}>
                 <BottomAppBar />
             </Toolbar>
         </AppBar>
