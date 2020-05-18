@@ -3,6 +3,8 @@ import React from "react";
 import { Avatar, IconButton } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
 
+import avatarImage from "../../Assets/avatarImage.png";
+
 const TopAppBarRight = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const TopAppBarRight = () => {
                 <GetAppIcon />
             </IconButton>
             <IconButton>
-                <Avatar src={} />
+                <Avatar src={avatarImage} />
             </IconButton>
         </>
     );
