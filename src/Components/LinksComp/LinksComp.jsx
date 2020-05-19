@@ -15,8 +15,6 @@ import data from "../../Data/LinksData";
 const LinksComp = () => {
     const newData = data.slice(0, 5);
 
-    console.log(newData);
-
     return (
         <Paper
             style={{
